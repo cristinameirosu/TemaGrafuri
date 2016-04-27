@@ -40,8 +40,6 @@ public:
 
 	~binarySearchTree()
 	{
-		if (root == NULL)
-			throw runtime_error("Graful nu exista");
 		removeNode(root);
 	}
 
